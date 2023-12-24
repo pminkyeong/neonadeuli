@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="user_색변경" width="40" height="40" rx="20" transform="translate(-5764 -17917)" fill="#8d2020"/>
+    </clipPath>
+  </defs>
+  <g id="마스크_그룹_1" data-name="마스크 그룹 1" transform="translate(5764 17917)" clip-path="url(#clip-path)">
+    <g id="로그인_인포그래픽" data-name="로그인 인포그래픽" transform="translate(-5763.912 -17916.859)">
+      <path id="패스_570" data-name="패스 570" d="M17.132,14.256A7.2,7.2,0,1,0,9.921,7.045,7.208,7.208,0,0,0,17.132,14.256Zm0-11.993A4.807,4.807,0,1,1,12.324,7.07,4.805,4.805,0,0,1,17.132,2.263Z" transform="translate(2.806 5.616)" fill="#353230"/>
+      <path id="패스_571" data-name="패스 571" d="M15.729,23.219A10.793,10.793,0,0,0,4.925,34,1.189,1.189,0,1,0,7.3,34a8.4,8.4,0,1,1,16.8,0,1.189,1.189,0,1,0,2.378,0A10.733,10.733,0,0,0,15.729,23.219Z" transform="translate(4.208 -0.943)" fill="#353230"/>
+    </g>
+  </g>
+</svg>

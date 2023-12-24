@@ -1,0 +1,316 @@
+@charset "utf-8";
+body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, select, table, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    color: #353230;
+}
+ul,ol{
+    list-style: none;
+}
+html{
+    font-size: 18px ;
+    /* line-height: 1.42; */
+    color: #353230 ;
+}
+body{
+    font-family: 'Noto Color Emoji', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #353230;
+    padding-top: 70px ;
+}
+#wrap{
+    min-width: 1340px;
+}
+h1{
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* -----header----- */
+#header {
+    height: 70px ;
+    border-bottom: 2px solid #F6B660;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100% ;
+    z-index: 999;
+}
+.header_inner {
+    width: 1320px ;
+    margin: 0 auto;
+    height: 70px ;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 16px ;
+    left: 0;
+}
+#nav {
+    /* background-color: bisque; */
+    height: 70px ;
+    text-align: center;
+    padding-top: 1px ;
+    box-sizing: border-box;
+}
+.gnb {
+    display: inline-block;
+}
+.gnb> li {
+    float: left;
+}
+.gnb> li> a {
+    color: #353230 ;
+    display: block;
+    padding: 16px 50px 23px 50px;
+    font-weight: bold;
+    /* background-color: red; */
+}
+.gnb> li> a:hover, .gnb> li> a.on {
+    color: #F6B660 ;
+}
+
+.loguin {
+    position: absolute;
+    top: 15px ;
+    right: 0;
+}
+
+
+/* -----contents1----- */
+#contents1 {
+    width: 1320px ;
+    margin: 0 auto;
+    text-align: center;
+
+    overflow: hidden;
+    /* background-color: aquamarine; */
+}
+.contents_inner {
+    width: 1300px ;
+    margin: 0px auto;
+    overflow: hidden;
+    padding-top: 20px ;
+    border-top: solid 0.5px #fcf8f3 ;
+    /* background-color: #fcfbf1; */
+}
+
+h3 {
+    padding: 50px 0 5px 0 ;
+    font-family: 'Cafe24Ssurround';
+    font-size: 30px ;
+}
+span {
+    display: block;
+    font-size: 22px ;
+    padding: 5px 0 20px 0 ;
+}
+
+
+strong {
+    font-family: 'Cafe24Ssurround';
+    display: block;
+
+    width: 1000px ;
+    margin: 0 auto;
+    /* background-color: aquamarine; */
+
+    text-align: left;
+    font-size: 22px ;
+    padding-bottom: 10px ;
+}
+
+ol {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1010px ;
+    /* background: #8b8276; */
+}
+ol> li:nth-child(1) {
+    float: left;
+}
+ol> li:nth-child(2) {
+    float: right;
+}
+ol> li> a {
+    display: inline-block;
+    width: 495px ;
+    border-radius: 45px ;
+    padding: 12px 0px ;
+    background-color: #F7BA67;
+    font-size: 18px ;
+    font-weight: 450;
+    box-sizing: border-box;
+}
+ol> li:nth-child(1) a {
+    color: #fff ;    
+}
+ol> li:nth-child(2) a {
+    border: 1px solid #F7BA67 ;
+    background-color: #fff;
+}
+ol> li:nth-child(1)> a:hover {
+    color: #fff ;
+    background-color: #e29126;    
+}
+ol> li:nth-child(2)> a:hover {
+    color: #fff;
+    background-color: rgb(246, 209, 96) ;
+    border: 0px solid #fff ;
+    border: 1px solid rgb(246, 209, 96)  ;
+}
+
+.caution_wrap {
+    list-style-type: disc ;
+    clear: both;
+    text-align: left;
+    font-size: 13px ;
+    padding-top: 5px ;
+    padding-left: 38px ;
+    padding-bottom: 30px ;
+    line-height: 19px ;
+    margin: 0 auto;
+    width: 980px ;
+    /* background-color: aquamarine; */
+}
+.caution {
+    font-size: 11px ;
+    padding-left: 5px ;
+}
+
+/* -----contents2----- */
+#contents2 {
+    overflow: hidden;
+    background-color: #fffffc;
+}
+
+#contents2 .contents_inner table {
+    width: 1010px ;
+    margin: 0 auto;
+    font-size: 18px ;
+    border-collapse: collapse;
+    border-bottom: 1px solid #F6B660;
+}
+#contents2 .contents_inner table th {
+    width: 335px ;
+    padding: 10px 0 ;
+    font-weight: 600 ;
+    color: #fff;
+    background-color: #F6B660;
+}
+#contents2 .contents_inner table td {
+    padding: 20px 0 ;
+    text-align: center;
+    font-size: 16px ;
+    background-color: #fff;
+    line-height: 17px ;
+}
+#contents2 .contents_inner table:nth-child(4) td,
+#contents2 .contents_inner table:nth-child(4) th
+ {
+    border-bottom: 1px solid #F6B660;
+}
+
+#contents2 .contents_inner strong:nth-child(3) {
+    margin-top: 80px;
+}
+.Admissionfee {
+    text-align: right;
+    overflow: hidden;
+    margin-top: 5px ;
+} 
+.Admissionfee p {
+    margin: 0 auto;
+    width: 1010px ;
+    font-size: 11px ;
+    line-height: 13px ;
+}
+
+
+/* -----contents3----- */
+#contents3 {
+    width: 1000px ;
+    margin: 50px auto;
+    /* background-color: teal ; */
+}
+
+
+/* -----footer----- */
+#footer {
+    height: 200px ;
+    border-top: 1px solid #353230;
+    font-size: 14px ;
+    /* background-color: orange ; */
+}
+.footer_inner_link_wrap {
+    border-bottom: 1px solid #353230;
+    /* background-color: orangered; */
+}
+
+.link_wrap {
+    width: 1320px ;
+    margin: 0 auto;
+    height: 40px ;
+    position: relative;
+    /* background-color: olivedrab; */
+}
+.link {
+    position: absolute;
+    top: 9px ;
+    left: -10px;
+    /* background-color: orange; */
+}
+.link> li {
+    float: left;
+}
+.link> li:nth-child(1)::after {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 13px ;
+    background-color: #353230;
+    margin: 0 15px ;
+    vertical-align: -1px ;
+}
+.sns_link {
+    position: absolute;
+    top: 9px ;
+    right: 10px ;
+    /* background-color: orange; */
+}
+.sns_link> li {
+    width: 21px ;
+    float: left;
+    margin-left: 15px ;
+}
+.sns_link> li> a img {
+    width: 100% ;
+}
+.link_address {
+    width: 1320px ;
+    margin: 0 auto;    
+    height: 160px ;
+    padding: 10px 0 ;
+    background: url(../images/footer/footer_logo.svg) no-repeat left top;
+    /* background-color: red; */
+}
+.footer_address {
+    padding-left: 170px ;
+}

@@ -1,0 +1,146 @@
+@charset "utf-8";
+*{
+	margin:0; 
+	padding:0;
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none; 
+	color:#3f3f3f;
+}
+
+body{
+	font-family: 'Noto Color Emoji', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+	color:#3f3f3f;
+	line-height: 28px;
+}
+
+
+
+
+/*section1*/
+.ab {
+	color:#3f3f3f;
+} /*js제어*/
+
+#section1{
+	overflow: hidden;
+	background-color: #F6B660;
+}
+
+/*faq*/
+.font_10{
+	font-size:20px;
+	font-weight:800;
+	/* background-color: teal ; */
+}
+	
+.right{
+	/* position:relative; */
+	width:1000px;
+	padding:10px 0;
+	float:right;
+	overflow:hidden;
+}
+.right ul li {
+	cursor: pointer;
+	margin-top: 0px ;
+}
+.right ul li .noc_po {
+	margin-top: 6px ;
+}
+.right ul li:nth-child(1){
+	text-align:center;
+	margin-left: 5%;
+	margin-right: 1%;
+	width: 4% ;
+	height: 74%;
+	padding-top: 3px ;
+	border-radius: 30px 30px ;
+	float:left;
+	background-color: #fff ;
+}
+.right ul li:nth-child(2){
+	width: 80%;
+	float:left;
+	/* background-color: aqua; */
+}
+.right ul li:nth-child(3){
+	width: 5%;
+	margin-right: 5%;
+	padding-left: 15px ;
+	float: right;
+	margin-bottom: 5px;
+	box-sizing: border-box;
+	/* background-color: yellow; */
+}
+.right> li ul{
+	width:100%;
+	height:50px;
+	padding: 5px 0;
+	overflow:hidden;
+}
+.text_info{
+	background:#ffffff;
+	text-align:left;
+	overflow:hidden;
+}
+.right> li .text_info{
+	display:none; 
+	padding: 10px 0 10px 0;
+	/* background-color: tan; */
+}
+.right> li .text_info{
+	width:100%
+}
+.notice_line{
+	height:1px;
+	text-align:center;
+	width:100%;
+	margin:auto;
+	/* background:#BB6A34; */
+}
+.notice_bg{
+	height:781px ;
+}
+.right .font_18{
+	position:relative;
+	height:50px;
+	color:#3f3f3f;
+	font-size:20px;
+}
+.right .font_18 .noc_po{
+	position:absolute;
+	left:0px;
+	top:-15px;
+	transform:translateY(50%);
+}
+.turn{
+	transform:rotate(180deg);
+}
+.plus img{
+	transition:transform 0.5s;
+}
+
+.text_info p{
+	float:left;
+	font-size: 18px;
+}
+.answer{
+	text-align:center;
+	font-size: 20px;
+	font-weight:800;
+	color:#fff ;
+	margin-left: 100px ;
+	padding: 3px 12px ;
+	border-radius: 30px 30px ;
+	background-color: #FF8F2D ;
+}
+
+.text_info p:nth-child(2) {
+	padding-top: 0px ;
+	padding-left: 10px ;
+}

@@ -1,0 +1,232 @@
+@charset "utf-8";
+body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, select, table, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    color: #353230;
+}
+ul,ol{
+    list-style: none;
+}
+html{
+    font-size: 18px ;
+    /* line-height: 1.42; */
+    color: #353230 ;
+}
+body{
+    font-family: 'Noto Color Emoji', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #353230;
+    padding-top: 70px ;
+}
+#wrap{
+    min-width: 1340px;
+}
+h1{
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* -----header----- */
+#header {
+    height: 70px ;
+    border-bottom: 2px solid #F6B660;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100% ;
+    z-index: 999;
+}
+.header_inner {
+    width: 1320px ;
+    margin: 0 auto;
+    height: 70px ;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 9px ;
+    left: 0;
+}
+#nav {
+    height: 70px ;
+    text-align: center;
+    padding-top: 2px ;
+    box-sizing: border-box;
+    /* background-color: bisque; */
+}
+.gnb {
+    display: inline-block;
+}
+.gnb> li {
+    float: left;
+}
+.gnb> li> a {
+    color: #353230 ;
+    display: block ;
+    padding: 16px 50px 23px 50px ;
+    font-weight: bold;
+    /* background-color: red; */
+}
+.gnb> li> a:hover, .gnb> li> a.on {
+    color: #F6B660 ;
+}
+
+.loguin {
+    position: absolute;
+    top: 15px ;
+    right: 0;
+}
+
+
+/* -----contents1----- */
+#contents1 {
+    width: 1320px ;
+    margin: 0 auto;
+    text-align: center;
+
+    overflow: hidden;
+    /* background-color: aquamarine; */
+}
+h3 {
+    /* 전시안내 */
+    padding: 45px 0 5px 0 ;
+    font-family: 'Cafe24Ssurround';
+    font-size: 30px ;
+    /* background-color: aqua; */
+}
+span {
+    /* 제 14회 너나들이 부산 캣페어 */
+    display: block;
+    font-size: 22px ;
+    padding-bottom: 30px ;
+    /* background-color: aqua; */
+}
+
+.contents1_inner {
+    /* 부모 박스  */
+    width: 1320px ;
+    height: 800px ;
+    background: url(../images/sub_01_imges/sub01_visual.png) no-repeat top left ;
+    margin: 30px 0 ;
+    /* background-color: beige; */
+}
+.text_box_wrap {
+    /* 자식 오른쪽 박스 */
+    width: 745px ;
+    float: right;
+    height: 740px ;
+    text-align: left;
+    /* background-color: #F7A54B; */
+}
+caption {
+    font-size: 20px ;
+    padding: 0px 0 5px 0;
+    font-weight: bold;
+    text-align: left;
+}
+table {
+    width: 100% ;
+    font-size: 18px ;
+    margin-bottom: 25px ;
+    border-collapse: collapse;
+}
+tr {
+    height: 26px ;
+    /* background-color: #F6B660; */
+}
+
+button {
+    display: inline-block;
+    background-color: #F7A54B;
+    color: #fff;
+    padding: 14px 30px ;
+    border-radius: 30px 30px ;
+    border: 0px solid #fff ;
+    font-size: 16px ;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #fffbf1 ;
+    color: #F7A54B ;
+    font-weight: 600;
+    border: solid 1px #F7A54B ;
+}
+
+/* -----footer----- */
+#footer {
+    height: 200px ;
+    border-top: 1px solid #353230;
+    font-size: 14px ;
+    /* background-color: orange ; */
+}
+.footer_inner_link_wrap {
+    border-bottom: 1px solid #353230;
+    /* background-color: orangered; */
+}
+
+.link_wrap {
+    width: 1320px ;
+    margin: 0 auto;
+    height: 40px ;
+    position: relative;
+    /* background-color: olivedrab; */
+}
+.link {
+    position: absolute;
+    top: 9px ;
+    left: -10px;
+    /* background-color: orange; */
+}
+.link> li {
+    float: left;
+}
+.link> li:nth-child(1)::after {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 13px ;
+    background-color: #353230;
+    margin: 0 15px ;
+    vertical-align: -1px ;
+}
+.sns_link {
+    position: absolute;
+    top: 9px ;
+    right: 10px ;
+    /* background-color: orange; */
+}
+.sns_link> li {
+    width: 21px ;
+    float: left;
+    margin-left: 15px ;
+}
+.sns_link> li> a img {
+    width: 100% ;
+}
+.link_address {
+    width: 1320px ;
+    margin: 0 auto;    
+    height: 160px ;
+    padding: 10px 0 ;
+    background: url(../images/footer/footer_logo.svg) no-repeat left top;
+    /* background-color: red; */
+}
+.footer_address {
+    padding-left: 170px ;
+}

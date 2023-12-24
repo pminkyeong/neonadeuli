@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="calendar-clock_색상변경" width="100" height="100" rx="17" transform="translate(509 563)" fill="#be4242"/>
+    </clipPath>
+  </defs>
+  <g id="마스크_그룹_2" data-name="마스크 그룹 2" transform="translate(-509 -563)" clip-path="url(#clip-path)">
+    <g id="예약_인포그래픽" data-name="예약 인포그래픽" transform="translate(477.698 532.945)">
+      <path id="패스_573" data-name="패스 573" d="M80.455,29.053H77.507V26.1a2.948,2.948,0,0,0-5.9,0v2.948H48.1V26.1a2.948,2.948,0,0,0-5.9,0v2.948H39.253a14.734,14.734,0,0,0-14.7,14.7V79.026a14.734,14.734,0,0,0,14.7,14.7H80.382a14.734,14.734,0,0,0,14.7-14.7V43.757A14.671,14.671,0,0,0,80.455,29.053Zm-49.973,14.7a8.792,8.792,0,0,1,8.808-8.808H80.418a8.792,8.792,0,0,1,8.808,8.808v2.948H30.481ZM80.455,87.834H39.326a8.792,8.792,0,0,1-8.808-8.808V52.565H89.3V79.026A8.894,8.894,0,0,1,80.455,87.834Z" transform="translate(21.151 21.162)" fill="#353230"/>
+      <ellipse id="타원_25" data-name="타원 25" cx="4.404" cy="4.404" rx="4.404" ry="4.404" transform="translate(76.638 84.027)" fill="#353230"/>
+      <ellipse id="타원_26" data-name="타원 26" cx="4.404" cy="4.404" rx="4.404" ry="4.404" transform="translate(61.933 84.027)" fill="#353230"/>
+      <ellipse id="타원_27" data-name="타원 27" cx="4.404" cy="4.404" rx="4.404" ry="4.404" transform="translate(91.306 84.027)" fill="#353230"/>
+    </g>
+  </g>
+</svg>
